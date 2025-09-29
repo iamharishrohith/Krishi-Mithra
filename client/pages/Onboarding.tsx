@@ -44,7 +44,7 @@ const Onboarding: React.FC = () => {
         {/* Content */}
         {step === "sih" && (
           <section className="rounded-2xl border bg-white p-6 shadow-sm text-center">
-            <img src="/placeholder-logo.svg" alt="Smart India Hackathon Logo" className="mx-auto h-16 w-16 mb-3" />
+            <img src="/SIH Logo.png" alt="Smart India Hackathon Logo" className="mx-auto h-16 w-16 mb-3" />
             <h1 className="text-2xl font-extrabold text-primary">Smart India Hackathon 2025</h1>
             <p className="mt-2 text-gray-700">
               Empowering farmers in Kerala with AI-guided advisory, community support, and market linkages.
@@ -55,10 +55,10 @@ const Onboarding: React.FC = () => {
         {step === "team" && (
           <section className="rounded-2xl border bg-white p-6 shadow-sm">
             <div className="flex items-center gap-3">
-              <img src="/placeholder-logo.png" alt="Team Logo" className="h-12 w-12 rounded-md border" />
+              <img src="/team.png" alt="Team Logo" className="h-12 w-12 rounded-md border" />
               <div>
-                <h2 className="text-xl font-bold">Team SparkNest</h2>
-                <div className="text-sm text-gray-600">Govt. Engineering College, Thrissur</div>
+                <h2 className="text-xl font-bold">Monarch Realms</h2>
+                <div className="text-sm text-gray-600">Rathinam College of Arts & Science, Coimbatore</div>
               </div>
             </div>
 
@@ -67,11 +67,11 @@ const Onboarding: React.FC = () => {
                 <Users className="w-4 h-4" /> Members
               </h3>
               <ul className="text-sm text-gray-700 space-y-1 list-disc pl-5">
-                <li>Member 1 – Lead Engineer</li>
-                <li>Member 2 – AI/ML</li>
-                <li>Member 3 – UX</li>
-                <li>Member 4 – Full-stack</li>
-                <li>Member 5 – Ops/QA</li>
+                <li>Subhaharini S – Lead Engineer</li>
+                <li>Harish Rohith S – AI/ML</li>
+                <li>Sheik Faridul M – UX</li>
+                <li>Kevin P – Full-stack</li>
+                <li>Ragunathsri  – Ops/QA</li>
               </ul>
             </div>
           </section>
@@ -84,8 +84,7 @@ const Onboarding: React.FC = () => {
               Problem Statement
             </h2>
             <p className="mt-2 text-gray-700">
-              Build a farmer-centric, offline-capable advisory and market linkage app for Kerala: adaptive learning,
-              government schemes matching, community/family profiles, and future IoT integration.
+              Kerala’s smallholder farmers often lack access to personalized, timely agricultural advice. Generic advisories fail to account for local crop choices, weather, soil conditions, or farming practices. Many farmers also don’t maintain records of their activities, which limits learning from past seasons and accessing scheme benefits.
             </p>
             <div className="mt-4 rounded-lg bg-amber-50 border border-amber-200 p-3 text-sm text-amber-900">
               Our solution focuses on trust (local Krishi Officer & panchayat branding), resilience (offline-first), and
