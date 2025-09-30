@@ -44,7 +44,7 @@ const Onboarding: React.FC = () => {
         {/* Content */}
         {step === "sih" && (
           <section className="rounded-2xl border bg-white p-6 shadow-sm text-center">
-            <img src="/SIH Logo.png" alt="Smart India Hackathon Logo" className="mx-auto h-16 w-16 mb-3" />
+            <img src="/SIH Logo.png" alt="Smart India Hackathon Logo" className="mx-auto h-16 w-24 mb-3" />
             <h1 className="text-2xl font-extrabold text-primary">Smart India Hackathon 2025</h1>
             <p className="mt-2 text-gray-700">
               Empowering farmers in Kerala with AI-guided advisory, community support, and market linkages.
