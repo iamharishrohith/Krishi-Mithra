@@ -58,7 +58,6 @@ const Onboarding: React.FC = () => {
               <img src="/team.png" alt="Team Logo" className="h-12 w-12 rounded-md border" />
               <div>
                 <h2 className="text-xl font-bold">Monarch Realms</h2>
-                <div className="text-sm text-gray-600">Rathinam College of Arts & Science, Coimbatore</div>
               </div>
             </div>
 
